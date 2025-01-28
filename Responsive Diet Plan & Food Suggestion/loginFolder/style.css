@@ -1,0 +1,29 @@
+
+html, body {
+    width: 100%; /* Sets the width of the html and body elements to 100% */
+    height: 100%; /* Sets the height of the html and body elements to 100% */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    justify-content: center;
+ /* Sets the background color of the body to orange */
+  }
+  
+  /* Applies additional styles to the body element */
+  body {
+    -webkit-font-smoothing: antialiased; /* Improves font rendering in WebKit-based browsers */
+    -moz-osx-font-smoothing: grayscale; /* Improves font rendering in Firefox on macOS */
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* Specifies font family */
+    background: url("../CSS/home.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+  
+  /* Applies styles to all elements, pseudo-elements, and pseudo-classes */
+  *,
+  ::before,
+  ::after {
+      box-sizing: border-box; /* Uses border-box model for sizing */
+      border-width: 0; /* Sets border width to 0 */
+      border-style: solid; /* Sets border style to solid */
+      border-color: #ffffff; /* Sets border color to white */
+  }
